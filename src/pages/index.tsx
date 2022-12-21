@@ -1,11 +1,12 @@
+import Layout from "@/components/helper/Layout";
 import React from "react";
 
 const IndexPage: React.FC = () => {
-  return(
-      <>
-        test
-      </>
-  )
-}
+  return (
+    <>
+      <Layout />
+    </>
+  );
+};
 
 export default IndexPage;
